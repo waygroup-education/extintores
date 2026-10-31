@@ -1,0 +1,211 @@
+      <header class="ova-screen__head" data-reveal>
+        <div class="ova-screen__eyebrow">Tema {{NUM}}</div>
+        <h1 class="ova-screen__title">Marco normativo y fundamentos del fuego</h1>
+      </header>
+
+      <!-- Situación de partida · el texto es el cuadro (tabla 1×1) del Word bajo «Situación de partida:» -->
+      <div data-reveal style="margin-bottom:40px; padding:32px; background:linear-gradient(135deg, color-mix(in srgb, var(--c-acento) 10%, var(--bg-surface)) 0%, var(--bg-surface) 60%); border:1px solid color-mix(in srgb, var(--c-acento) 30%, var(--border-c)); border-radius:var(--r-lg); position:relative; overflow:hidden;">
+        <h3 style="font-family:var(--font-mono); font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--c-acento); margin:0 0 16px; display:flex; align-items:center; gap:10px;"><iconify-icon icon="mdi:comment-question-outline" style="font-size:1.1rem;"></iconify-icon> Situación de partida</h3>
+        <p style="margin:0; font-size:1.02rem; line-height:1.6;">Durante la revisión del registro de mantenimiento, un supervisor advierte que el último mantenimiento anual de los extintores de su área se realizó hace 14 meses, según la etiqueta. Al verlos en aparente buen estado, decide postergar el reporte hasta la próxima auditoría.</p>
+        <p style="margin:14px 0 0; font-size:1.02rem; line-height:1.6;"><strong>Hagamos una pausa:</strong> ¿Qué norma regula la frecuencia de este mantenimiento y qué consecuencias reales tendría usar un equipo vencido, en una emergencia?</p>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.1 · tema1-1 ════ -->
+      <section class="ova-seccion" id="tema1-1" data-reveal>
+        <h2 class="ova-seccion__titulo">Marco normativo aplicable a los extintores en Colombia</h2>
+        <p class="ova-seccion__lead">El Código Sustantivo del Trabajo (art. 57, num. 2, y art. 348) obliga al empleador a suministrar y acondicionar locales y equipos que garanticen la seguridad de los trabajadores.</p>
+      </section>
+      <p data-reveal>En la misma línea, la Ley 9 de 1979 (Código Sanitario Nacional) determina las exigencias específicas para la protección contra incendios a través de dos componentes clave:</p>
+
+      <!-- El DI: "Acordeón" (dos ítems; manda el rótulo, arquitecto 2026-10-31) -->
+      <div class="ova-acordeon" data-reveal style="margin-top:16px;">
+        <div class="ova-acordeon__item is-open">
+          <button class="ova-acordeon__head"><span><span class="num">01</span> <strong>Capacitación y suficiencia (artículo 114)</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Exige que todo lugar de trabajo disponga de personal entrenado, así como de métodos y equipos adecuados y suficientes para la prevención y extinción de incendios.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">02</span> <strong>Operatividad y vigilancia (artículo 116)</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Obliga a que los equipos de extinción estén diseñados, construidos y mantenidos para garantizar su uso inmediato con la máxima eficiencia. Asimismo, somete a los fabricantes y a las agencias de mantenimiento a una estricta vigilancia oficial.</div></div>
+        </div>
+      </div>
+
+      <!-- Figura 1 del diseñador (Imagen 1VF, que reemplaza a Imagen 1: ERRORES-ORIGEN F11) -->
+      <figure class="ova-figura ova-figura--plana" data-reveal style="margin-top:32px;">
+        <img src="assets/img/curso/figura-01-resolucion-2400.webp" alt="Resolución 2400 de 1979 del Ministerio de Trabajo y Seguridad Social: norma de referencia sobre la prevención y extinción de incendios en los lugares de trabajo. Artículo 220: exige disponer de extintores adecuados según la clase de riesgo y revisarlos como mínimo una vez al año. Artículo 221: exige ubicar los extintores en sitios visibles y libres de obstáculos, remitiendo al numeral 2.4. Artículo 223: exige conformar una brigada de incendio con personal entrenado, remitiendo al numeral 1.4." />
+      </figure>
+
+      <p data-reveal style="margin-top:24px;">El Decreto 1072 de 2015 (artículo 2.2.4.6.25, numeral 12) establece la obligación de realizar inspecciones periódicas a los equipos de emergencia, incluyendo los extintores. Para su ejecución, la NTC 2885 del ICONTEC, basada en la norma NFPA 10 (referente técnico internacional), establece cuatro frecuencias: inspección mensual, mantenimiento anual, desmonte cada 6 años (PQS de presión contenida) y prueba hidrostática cada 5 o 12 años según el agente, ampliando así el alcance de la revisión anual exigida inicialmente por la Resolución 2400 de 1979. Adicionalmente, el Título J de la NSR-10 (Decreto 926 de 2010) exige la instalación de extintores portátiles conforme a la NTC 2885.</p>
+
+      <!-- El DI: "Modal" · la figura 2 va dentro, como en el Word -->
+      <div data-reveal style="text-align:center; margin-top:16px;"><button class="ova-btn ova-btn--outline" data-ova-modal-open="modal-volviendo-caso"><iconify-icon icon="mdi:comment-question-outline"></iconify-icon> Volviendo al caso de la situación de partida</button></div>
+      <!-- DISEÑO: modal ancho para que la figura 2 se lea en escritorio (arquitecto 2026-10-31) -->
+      <div class="ova-modal" id="modal-volviendo-caso"><div class="ova-modal__dialog" style="max-width:960px;">
+        <div class="ova-modal__head"><h3><strong>Volviendo al caso de la situación de partida</strong></h3><button class="ova-modal__close" data-ova-modal-close><iconify-icon icon="mdi:close"></iconify-icon></button></div>
+        <div class="ova-modal__body">
+          <p>Un extintor con la recarga vencida no muestra un deterioro visible en su exterior; la vigencia de su presión y la efectividad del agente extintor solo pueden confirmarse verificando la fecha de mantenimiento en la etiqueta, nunca por la apariencia estética del cilindro.</p>
+          <!-- Figura 2 del diseñador (A3: «presión almacenada» en la figura, «presión contenida» en el texto; duda al instruccional, no detiene) -->
+          <figure class="ova-figura ova-figura--plana" style="margin-top:16px;">
+            <img src="assets/img/curso/figura-02-inspeccion-mantenimiento.webp" alt="Inspección y mantenimiento de extintores. 01, cada mes: una inspección visual verifica que el extintor esté en su lugar y en condiciones aparentes de uso. 02, cada año: un técnico autorizado hace el mantenimiento completo. 03, cada 6 años: los extintores de polvo químico seco de presión almacenada deben desmontarse por completo, porque el polvo tiende a compactarse. 04, prueba hidrostática: verifica que el cilindro resista, sin deformarse ni fugar, la presión de prueba establecida por la NTC 2885 para cada tipo de extintor. Cada 5 años: CO2, agua y tipo K. Cada 12 años: polvo químico seco." />
+          </figure>
+        </div>
+        <div class="ova-modal__foot"><button class="ova-btn ova-btn--outline" data-ova-modal-close>Cerrar</button></div>
+      </div></div>
+
+      <div class="ova-callout" style="margin-top:32px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:lightbulb-on"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Ten en cuenta</span><p style="margin:8px 0 0;">Cualquier cilindro que no supere la prueba hidrostática debe destruirse o inutilizarse; está prohibida su reparación o reutilización.</p></div>
+      </div>
+
+      <p data-reveal style="margin-top:24px;">La NTC 3808 complementa este marco al regular detalladamente los procesos de fabricación, carga y recarga de extintores portátiles.</p>
+      <p data-reveal>El incumplimiento de este marco normativo acarrea consecuencias legales directas para el empleador:</p>
+
+      <!-- El DI: "Stepper" (tres normas sin orden; manda el rótulo, duda al instruccional, arquitecto 2026-10-31). Sin ova-step__tag -->
+      <div class="ova-stepper" data-reveal style="margin-top:16px;">
+        <div class="ova-step">
+          <div class="ova-step__num"><span>01</span></div>
+          <div class="ova-step__card"><h3><strong>Ley 1562 de 2012 (Artículo 13)</strong></h3><p>Establece que, si un accidente laboral fatal ocurre como consecuencia del incumplimiento de las normas de Seguridad y Salud en el Trabajo (SST), el Ministerio del Trabajo impondrá multas de 20 a 1.000 salarios mínimos mensuales legales vigentes (SMMLV), valores que actualmente se liquidan en su equivalente en UVT (Decreto 1072 de 2015, art. 2.2.4.11.5).</p></div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>02</span></div>
+          <div class="ova-step__card"><h3><strong>Decreto 1072 de 2015 (Artículos 2.2.4.11.1 al 2.2.4.11.13)</strong></h3><p>Reglamenta los criterios para la graduación de dichas multas, evaluando variables como el tamaño de la empresa y la gravedad de la infracción.</p></div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>03</span></div>
+          <div class="ova-step__card"><h3><strong>Ley 1610 de 2013</strong></h3><p>Faculta a los inspectores del trabajo para ordenar la paralización o prohibición inmediata de trabajos o tareas cuando exista un riesgo inminente para la vida o la salud de los trabajadores; además, el Ministerio del Trabajo puede ordenar el cierre del lugar de trabajo (Ley 1562 de 2012, art. 13, y Decreto 1072 de 2015, cap. 2.2.4.11).</p></div>
+        </div>
+      </div>
+
+      <p data-reveal style="margin-top:32px;">La fabricación de extintores está sujeta a estrictas regulaciones ambientales. La Resolución 0634 de 2022 (Ministerio de Ambiente y Desarrollo Sostenible, y Ministerio de Comercio, Industria y Turismo) prohíbe el uso de agentes extintores que agoten la capa de ozono. La única excepción vigente es el HCFC-123, cuyo uso se permitirá únicamente hasta el 31 de diciembre de 2029, como se explica en el numeral 2.2, al abordar por qué el halón fue reemplazado por los agentes limpios actuales.</p>
+      <p data-reveal>Antes de continuar, es fundamental distinguir dos conceptos que utilizarás a lo largo de todo el curso y que suelen confundirse, pero que no significan lo mismo: peligro y riesgo.</p>
+
+      <!-- El DI: "Comparativo" (en negro en el Word) · tabla 1×2 -->
+      <div class="ova-vs" data-reveal style="margin-top:16px;">
+        <div class="ova-vs__card">
+          <h3><strong>PELIGRO</strong></h3>
+          <p>Es la fuente inherente de daño o la condición capaz de causar un siniestro. En nuestro contexto, representa la existencia misma de los elementos necesarios para la combustión (por ejemplo, un material inflamable junto a una fuente de calor). Este peligro permanece activo y latente, incluso si no hay nadie cerca en ese momento.</p>
+        </div>
+        <div class="ova-vs__divider">VS</div>
+        <div class="ova-vs__card ova-vs__card--alt">
+          <h3><strong>RIESGO</strong></h3>
+          <p>Es la combinación de la probabilidad de que ese peligro se materialice en un incendio y la severidad de sus consecuencias (Decreto 1072 de 2015, art. 2.2.4.6.2).</p>
+        </div>
+      </div>
+
+      <div class="ova-callout" style="margin-top:32px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:text-box-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Ejemplo clave</span><p style="margin:8px 0 0;">Dos bodegas que almacenan líquidos inflamables representan exactamente el mismo peligro. Sin embargo, si una de ellas los almacena de forma descuidada y la otra cumple con estrictas medidas de seguridad, el riesgo en la primera es drásticamente mayor. El peligro es una condición fija; el riesgo varía, según la prevención.</p></div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.2 · tema1-2 ════ -->
+      <section class="ova-seccion" id="tema1-2" data-reveal>
+        <h2 class="ova-seccion__titulo">Qué es el fuego: el tetraedro y sus fases</h2>
+        <p class="ova-seccion__lead">El fuego es una reacción química de combustión autosostenida, caracterizada por la rápida oxidación de un material combustible que libera simultáneamente calor y energía lumínica.</p>
+      </section>
+
+      <div class="ova-callout" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:head-question-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Sabías que</span><p style="margin:8px 0 0;">¿Sabías que la temperatura de una llama puede superar los 1.000 °C, aunque el calor que percibimos a distancia provenga sobre todo de la radiación, no del contacto directo con el fuego?</p></div>
+      </div>
+
+      <p data-reveal style="margin-top:24px;">Para que este proceso ocurra, es indispensable la coexistencia simultánea de cuatro factores esenciales, un principio científico denominado el <strong>tetraedro del fuego</strong>:</p>
+
+      <!-- El DI: "Carrusel" -->
+      <div class="ova-carrusel ova-carrusel--tarjetas" data-reveal style="margin-top:16px;">
+        <div class="ova-carrusel__track-wrap"><div class="ova-carrusel__track">
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:gas-can"></iconify-icon><h4><strong>Combustible</strong></h4><p>Es la materia o sustancia inflamable que tiene la capacidad de arder, ya sea en estado sólido, líquido o gaseoso.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:weather-windy"></iconify-icon><h4><strong>Comburente</strong></h4><p>Es el agente oxidante que permite la combustión, siendo el oxígeno atmosférico el más común; para que el fuego subsista, por debajo de aproximadamente 15-16 % de oxígeno en el aire, la mayoría de las combustiones no se sostienen.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:flash"></iconify-icon><h4><strong>Energía de activación</strong></h4><p>Es el aporte de calor inicial indispensable para elevar la temperatura del combustible y desencadenar la reacción química.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:atom-variant"></iconify-icon><h4><strong>Reacción en cadena</strong></h4><p>Es la secuencia de reacciones en la que los radicales libres generados por la combustión mantienen el proceso y lo propagan.</p></div>
+        </div></div>
+        <div class="ova-carrusel__nav"><div class="ova-carrusel__dots"></div><div class="ova-carrusel__arrows"><button class="ova-carrusel__arrow" data-ova-carrusel-prev><iconify-icon icon="mdi:arrow-left"></iconify-icon></button><button class="ova-carrusel__arrow" data-ova-carrusel-next><iconify-icon icon="mdi:arrow-right"></iconify-icon></button></div></div>
+      </div>
+
+      <!-- DISEÑO: remate de la regla en recuadro sin etiqueta; texto literal (arquitecto 2026-10-31) -->
+      <div class="ova-callout" style="margin-top:32px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:fire-off"></iconify-icon></div>
+        <div><p style="margin:0;">Eliminar cualquiera de estos cuatro elementos extingue el fuego; esa es la lógica fundamental de todo extintor.</p></div>
+      </div>
+
+      <p data-reveal style="margin-top:32px;">El comportamiento térmico de un material inflamable está determinado por tres temperaturas clave que explican por qué se desata la combustión en un momento preciso:</p>
+
+      <!-- Figura 3 del diseñador (A2: el globo de autocalentamiento; duda al instruccional, no detiene) -->
+      <figure class="ova-figura ova-figura--plana" data-reveal style="margin-top:16px;">
+        <img src="assets/img/curso/figura-03-temperaturas-combustion.webp" alt="01, punto de inflamación: es la temperatura mínima a la que un material libera vapores suficientes para formar una mezcla inflamable con el aire, aunque esos vapores solo se enciendan un instante si se retira la fuente de calor. 02, punto de ignición: es la temperatura a la que esos vapores ya sostienen la combustión por sí solos, sin apagarse al retirar la llama. 03, temperatura de autoignición: es la temperatura mínima a la que un material se enciende sin necesidad de llama o chispa, por ejemplo, al contacto con una superficie caliente. Combustión espontánea por autocalentamiento." />
+      </figure>
+
+      <p data-reveal style="margin-top:24px;">Un incendio no se comporta igual todo el tiempo: pasa por diferentes fases:</p>
+
+      <!-- El DI: "Stepper". Sin ova-step__tag -->
+      <div class="ova-stepper" data-reveal style="margin-top:16px;">
+        <div class="ova-step">
+          <div class="ova-step__num"><span>01</span></div>
+          <div class="ova-step__card"><h3><strong>Fase incipiente</strong></h3><p>El fuego apenas comienza. El oxígeno del ambiente sigue intacto y se liberan las primeras trazas de calor, vapor de agua, monóxido y dióxido de carbono. Esta es la única etapa donde un extintor portátil es realmente efectivo y seguro.</p></div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>02</span></div>
+          <div class="ova-step__card"><h3><strong>Fase de crecimiento</strong></h3><p>El humo y los gases se vuelven visibles, mientras el calor asciende rápidamente por convección. En este punto, inhalar el aire caliente puede causar daños pulmonares graves.</p></div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>03</span></div>
+          <div class="ova-step__card"><h3><strong>Fase de desarrollo pleno</strong></h3><p>El fuego alcanza su máxima intensidad; puede producirse un flashover (combustión súbita generalizada) cuando todo el material combustible del recinto se enciende casi al mismo tiempo. Intervenir con un extintor portátil en esta fase ya no es seguro.</p></div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>04</span></div>
+          <div class="ova-step__card"><h3><strong>Fase de decaimiento</strong></h3><p>La combustión disminuye por falta de combustible u oxígeno. En espacios cerrados con poco oxígeno existe riesgo de backdraft (explosión por reingreso súbito de aire) al abrir puertas o ventanas. Intentar usar un extintor en esta etapa ya no es una opción viable ni segura. Solo en la fase incipiente es seguro el extintor portátil.</p></div>
+        </div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.3 · tema1-3 ════ -->
+      <section class="ova-seccion" id="tema1-3" data-reveal>
+        <h2 class="ova-seccion__titulo">Cómo se apaga un incendio: los métodos de extinción</h2>
+        <p class="ova-seccion__lead">Extinguir un fuego consiste en romper el tetraedro del fuego, impidiendo que sus cuatro componentes interactúen de forma simultánea. Esto se logra mediante cuatro mecanismos principales:</p>
+      </section>
+
+      <!-- El DI: "Acordeón" -->
+      <div class="ova-acordeon" data-reveal style="margin-top:0;">
+        <div class="ova-acordeon__item is-open">
+          <button class="ova-acordeon__head"><span><span class="num">01</span> <strong>Eliminación del combustible (retirada o desalimentación)</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Retira la sustancia que alimenta el fuego. Esto se consigue interrumpiendo el flujo de gases, vaciando recipientes o alejando el material que aún no ha sido alcanzado por las llamas.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">02</span> <strong>Sofocación (eliminación del oxígeno)</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Interpone una barrera física entre el combustible y el comburente que es el oxígeno. Al cortar este suministro, se ahoga la reacción química que mantiene vivo el fuego.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">03</span> <strong>Enfriamiento (reducción de la temperatura)</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Absorbe el calor generado por la combustión. Al enfriar el foco del incendio por debajo de su temperatura de ignición, se detiene la producción de vapores combustibles.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">04</span> <strong>Inhibición (ruptura de la reacción en cadena)</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Neutraliza los radicales libres que sostienen la combustión. Al bloquear químicamente este proceso, se interrumpe la propagación del fuego desde su estructura interna.</div></div>
+        </div>
+      </div>
+
+      <div class="ova-callout" style="margin-top:32px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:information-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Importante</span><p style="margin:8px 0 0;">Ningún extintor portátil funciona mediante la eliminación del combustible. Por el contrario, cada agente extintor combina uno o más de los tres métodos restantes; esta combinación específica determina su efectividad y compatibilidad, según la clase de fuego. La Tabla 1 del numeral 2.2 resume el método de extinción de cada agente.</p></div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.4 · tema1-4 ════ -->
+      <section class="ova-seccion" id="tema1-4" data-reveal>
+        <h2 class="ova-seccion__titulo">Roles y responsabilidades frente a un incendio</h2>
+      </section>
+
+      <!-- Figura 4 del diseñador (tríptico fotográfico, sin texto) -->
+      <figure class="ova-figura ova-figura--plana" data-reveal>
+        <img src="assets/img/curso/figura-04-roles-incendio.webp" alt="Tres escenas: un brigadista descarga un extintor sobre un fuego de práctica mientras otros trabajadores observan; un técnico de mantenimiento revisa el manómetro de un extintor y anota en una planilla; un bombero y un inspector revisan el gabinete contra incendio." />
+      </figure>
+
+      <p data-reveal style="margin-top:24px;">Ante un incendio incipiente, la primera línea de respuesta recae en el personal capacitado o brigadista, quien cuenta con la destreza para identificar el tipo de fuego, seleccionar el extintor adecuado y aplicarlo correctamente. Para asegurar esta capacidad operativa, el responsable de mantenimiento garantiza que cada equipo cuente con su inspección mensual, recarga vigente y prueba hidrostática al día. Finalmente, los cuerpos de bomberos, en ejercicio de la competencia que les asigna el artículo 42 de la Ley 1575 de 2012 (modificado por la Ley 1796 de 2016), son los órganos competentes para realizar inspecciones y revisiones técnicas de seguridad contra incendio.</p>
+
+      <div class="ova-callout" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:lightbulb-on"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Ten en cuenta</span><p style="margin:8px 0 0;">Todo trabajador debe conocer la ubicación del extintor y activar la alarma, según el Decreto 1072 de 2015 (ver 4.1).</p></div>
+      </div>
+
+      <p data-reveal style="margin-top:24px;">El Decreto 1072 de 2015 (art. 2.2.4.6.25, numeral 11) exige que la empresa cuente con una brigada de emergencias formalmente constituida, capacitada y dotada, y realice al menos un simulacro anual con participación de todos los trabajadores. El estándar 5.1.2 de la Resolución 0312 de 2019 aplica esta exigencia según el tamaño y riesgo de la empresa (empresas de más de 50 trabajadores o riesgo IV-V en las de menor tamaño). La capacitación y el entrenamiento de las brigadas contraincendio se rigen, además, por la Resolución 0256 de 2014 de la Dirección Nacional de Bomberos de Colombia (DNBC). No obstante, la preparación ante emergencias no se limita a este grupo: de acuerdo con el numeral 9 del artículo 2.2.4.6.25 del Decreto 1072 de 2015, es obligatorio informar, capacitar y entrenar a la totalidad de los trabajadores, sin excepción, para que puedan actuar y salvaguardar su integridad ante una amenaza real o potencial. Así, mientras que el brigadista requiere un entrenamiento especializado, el resto del personal debe dominar, como mínimo, la ubicación del extintor más cercano y el protocolo de activación de la alarma.</p>
+
+      <div class="ova-callout ova-callout--success" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:check-circle-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Buena práctica</span><p style="margin:8px 0 0;">Al llegar a tu área, ubica el extintor más cercano y revisa de un vistazo su manómetro, precinto y etiqueta. Si notas una anomalía, repórtala; no supongas que otra persona ya lo hizo.</p></div>
+      </div>

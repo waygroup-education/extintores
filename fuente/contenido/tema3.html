@@ -1,0 +1,81 @@
+      <header class="ova-screen__head" data-reveal>
+        <div class="ova-screen__eyebrow">Tema {{NUM}}</div>
+        <h1 class="ova-screen__title">Uso correcto del extintor</h1>
+      </header>
+
+      <!-- Situación de partida · el texto es el cuadro (tabla 1×1) del Word bajo «Situación de partida:»; sin negrilla en el Word -->
+      <div data-reveal style="margin-bottom:40px; padding:32px; background:linear-gradient(135deg, color-mix(in srgb, var(--c-acento) 10%, var(--bg-surface)) 0%, var(--bg-surface) 60%); border:1px solid color-mix(in srgb, var(--c-acento) 30%, var(--border-c)); border-radius:var(--r-lg); position:relative; overflow:hidden;">
+        <h3 style="font-family:var(--font-mono); font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--c-acento); margin:0 0 16px; display:flex; align-items:center; gap:10px;"><iconify-icon icon="mdi:comment-question-outline" style="font-size:1.1rem;"></iconify-icon> Situación de partida</h3>
+        <p style="margin:0; font-size:1.02rem; line-height:1.6;">Un cortocircuito provoca un incendio en un equipo de cómputo. Una persona cercana toma un extintor de agua a presión, con la falsa creencia de que cualquier extintor sirve para apagar cualquier fuego, y lo descarga sobre el aparato, que todavía recibe energía eléctrica.</p>
+        <p style="margin:14px 0 0; font-size:1.02rem; line-height:1.6;">Antes de avanzar, piensa: ¿qué diferencia a este fuego de uno de madera o papel? ¿Qué podría pasarle a la persona que descargó el extintor?</p>
+      </div>
+
+      <p data-reveal>Te invitamos a ver el siguiente video, donde aprenderás las posiciones de seguridad esenciales para operar un extintor y dominarás la técnica PASS paso a paso.</p>
+
+      <!-- Video 3 (el DI: «(Vincular video 3)»). DETENIDO: el Word no trae el enlace y falta
+           insumos/multimedia/videos.txt (ESTADO.md, Multimedia = falta) -->
+      <div class="ova-video" data-reveal style="margin:24px 0 40px;">
+        <div data-ova-hueco="video 3 (antes del 3.1): falta el enlace (insumos/multimedia/videos.txt)"></div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.1 · tema3-1 ════ -->
+      <section class="ova-seccion" id="tema3-1" data-reveal>
+        <h2 class="ova-seccion__titulo">Condiciones para intervenir</h2>
+        <p class="ova-seccion__lead">Antes de tomar cualquier extintor, la primera acción siempre es dar la alarma: informar del incendio a los demás y pedir ayuda, activando el sistema de alarma del área, incluso si vas a intentar controlarlo tú mismo. Nunca se interviene en silencio.</p>
+      </section>
+      <p data-reveal>Solo se debe intervenir con un extintor portátil cuando se cumplen, todas a la vez, estas cuatro condiciones:</p>
+
+      <!-- El DI: "Carrusel" · viñetas sin título en el Word: icono y texto, sin h4 -->
+      <div class="ova-carrusel ova-carrusel--tarjetas" data-reveal style="margin-top:16px;">
+        <div class="ova-carrusel__track-wrap"><div class="ova-carrusel__track">
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:fire"></iconify-icon><p style="margin-top:12px;">El fuego es pequeño y controlable (fase incipiente): aproximadamente del tamaño de una papelera, sin haberse extendido a otros materiales.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:weather-fog"></iconify-icon><p style="margin-top:12px;">El espacio está libre de humo denso: puedes respirar y ver la salida sin dificultad.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:exit-run"></iconify-icon><p style="margin-top:12px;">La salida a tu espalda permanece despejada: nunca debes quedar entre el fuego y tu única vía de escape.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:fire-extinguisher"></iconify-icon><p style="margin-top:12px;">Cuentas con la capacitación y con el extintor adecuado para esa clase de fuego, dentro de su capacidad de descarga (código 2A:10B:C u otro aplicable).</p></div>
+        </div></div>
+        <div class="ova-carrusel__nav"><div class="ova-carrusel__dots"></div><div class="ova-carrusel__arrows"><button class="ova-carrusel__arrow" data-ova-carrusel-prev><iconify-icon icon="mdi:arrow-left"></iconify-icon></button><button class="ova-carrusel__arrow" data-ova-carrusel-next><iconify-icon icon="mdi:arrow-right"></iconify-icon></button></div></div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.2 · tema3-2 ════ -->
+      <section class="ova-seccion" id="tema3-2" data-reveal>
+        <h2 class="ova-seccion__titulo">Posiciones y aproximación</h2>
+        <p class="ova-seccion__lead">Adopta una posición estable, con los pies separados y una rodilla ligeramente flexionada. Sitúate siempre con la salida a tu espalda y, al aire libre, con el viento a tu espalda, para que el humo y el calor no se dirijan hacia ti. Inicia la descarga a la distancia de alcance que indica la etiqueta, por lo general entre 2 y 4 metros, y avanza de forma progresiva; retrocede si el fuego avanza hacia ti en lugar de disminuir. Ten presente que la descarga dura apenas entre 10 y 20 segundos.</p>
+      </section>
+
+      <!-- ════ Sección {{NUM}}.3 · tema3-3 ════ -->
+      <section class="ova-seccion" id="tema3-3" data-reveal>
+        <h2 class="ova-seccion__titulo">Técnica PASS</h2>
+        <p class="ova-seccion__lead">Antes de acercarte al fuego, realiza una breve descarga de prueba en el aire para confirmar que el extintor funciona y calibrar el alcance del chorro. Luego aplica la secuencia PASS:</p>
+      </section>
+
+      <!-- El DI: "Stepper" · los títulos del Word son solo los números 1 a 4: los pone el componente. Sin h3 ni ova-step__tag -->
+      <div class="ova-stepper" data-reveal style="margin-top:0;">
+        <div class="ova-step">
+          <div class="ova-step__num"><span>01</span></div>
+          <div class="ova-step__card"><p style="margin:0;">Halar el pasador de seguridad.</p></div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>02</span></div>
+          <div class="ova-step__card"><p style="margin:0;">Apuntar a la base de las llamas, nunca a las llamas mismas.</p></div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>03</span></div>
+          <div class="ova-step__card"><p style="margin:0;">Apretar la palanca de forma controlada.</p></div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>04</span></div>
+          <div class="ova-step__card"><p style="margin:0;">Barrer de lado a lado, cubriendo toda la base del fuego hasta apagarlo por completo.</p></div>
+        </div>
+      </div>
+
+      <p data-reveal style="margin-top:32px;">Si en los primeros segundos de descarga el fuego no disminuye con claridad, abandona la intervención y evacúa: ya superó la capacidad de un extintor portátil. Al retirarte, hazlo de frente al fuego, nunca dando la espalda, y vigila el área hasta la llegada de apoyo, por el riesgo de reignición.</p>
+
+      <div class="ova-callout" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:information-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Importante</span><p style="margin:8px 0 0;">Apunta siempre a la base del fuego, no a las llamas. El error más común es atacar las llamas, que son solo el efecto visible de la combustión. Para apagar el incendio de raíz, el agente extintor debe aplicarse directamente sobre el combustible en la base para romper el tetraedro del fuego.</p></div>
+      </div>
+
+      <div class="ova-callout ova-callout--success" style="margin-top:14px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:check-circle-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Buena práctica</span><p style="margin:8px 0 0;">Identifica el tipo de fuego antes de actuar. Perder unos segundos para elegir el extintor correcto es vital. Usar el equipo adecuado un poco más tarde siempre será mejor y más seguro que utilizar el incorrecto de inmediato.</p></div>
+      </div>

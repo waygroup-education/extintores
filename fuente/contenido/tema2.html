@@ -1,0 +1,189 @@
+      <header class="ova-screen__head" data-reveal>
+        <div class="ova-screen__eyebrow">Tema {{NUM}}</div>
+        <h1 class="ova-screen__title">Conoce tu extintor</h1>
+      </header>
+
+      <!-- Situación de partida · el texto es el cuadro (tabla 1×1) del Word bajo «Situación de partida:» -->
+      <div data-reveal style="margin-bottom:40px; padding:32px; background:linear-gradient(135deg, color-mix(in srgb, var(--c-acento) 10%, var(--bg-surface)) 0%, var(--bg-surface) 60%); border:1px solid color-mix(in srgb, var(--c-acento) 30%, var(--border-c)); border-radius:var(--r-lg); position:relative; overflow:hidden;">
+        <h3 style="font-family:var(--font-mono); font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--c-acento); margin:0 0 16px; display:flex; align-items:center; gap:10px;"><iconify-icon icon="mdi:comment-question-outline" style="font-size:1.1rem;"></iconify-icon> Situación de partida</h3>
+        <p style="margin:0; font-size:1.02rem; line-height:1.6;">Imagina que ocurre una emergencia, retiras un extintor de la pared y, al presionar la palanca, no sale nada. La aguja del manómetro llevaba semanas fuera del rango verde, pero nadie lo había revisado.</p>
+        <p style="margin:14px 0 0; font-size:1.02rem; line-height:1.6;"><strong>Ante un escenario así, vale la pena preguntarse:</strong> ¿qué información visual del propio equipo habría advertido este fallo antes de que fuera demasiado tarde?</p>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.1 · tema2-1 ════ -->
+      <section class="ova-seccion" id="tema2-1" data-reveal>
+        <h2 class="ova-seccion__titulo">Partes del extintor y qué hace cada una</h2>
+        <p class="ova-seccion__lead">¿Tu extintor funcionará en una emergencia? Descubre en este video sus partes principales y aprende a verificar, en menos de un minuto, si está 100 % operativo y listo para usarse. Un minuto que puede salvar vidas.</p>
+      </section>
+
+      <!-- Video 2 (el DI: «(Vincular video 2)»). DETENIDO: el Word no trae el enlace y falta
+           insumos/multimedia/videos.txt (ESTADO.md, Multimedia = falta) -->
+      <div class="ova-video" data-reveal style="margin:0 0 40px;">
+        <div data-ova-hueco="video 2 (2.1): falta el enlace (insumos/multimedia/videos.txt)"></div>
+      </div>
+
+      <p data-reveal><strong>Partes principales de un extintor portátil:</strong></p>
+      <!-- Figura 5 del diseñador -->
+      <figure class="ova-figura ova-figura--plana" data-reveal style="margin-top:16px;">
+        <img src="assets/img/curso/figura-05-partes-extintor.webp" alt="1, cilindro: contiene el agente extintor y el gas expulsor. 2, manómetro: indica la presión interna (no aplica a los extintores de CO2, que se verifican por peso). 3, manguera y boquilla: dirigen la descarga del agente. 4, difusor tipo corneta en el CO2: dirige la descarga del agente en los extintores de CO2. 5, palanca o gatillo: acciona la descarga al presionarse. 6, pasador o pin de seguridad: impide la descarga accidental. 7, precinto de seguridad (cola de ratón): confirma que el equipo no ha sido usado desde su última revisión. 8, etiqueta de inspección: registra las fechas de las revisiones periódicas." />
+      </figure>
+
+      <p data-reveal style="margin-top:32px;"><strong>Las cinco verificaciones antes de dar por operativo un extintor:</strong></p>
+      <div data-reveal style="margin-top:16px; padding:24px 28px; background:var(--bg-surface); border:1px solid var(--border-c); border-radius:var(--r-md);"><ul style="list-style:none; padding:0; margin:0; display:grid; gap:10px;"><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--c-acento); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span>Manómetro en el rango verde (o peso correcto en los extintores de CO₂).</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--c-acento); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span>Etiqueta de inspección vigente.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--c-acento); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span>Pin y precinto intactos.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--c-acento); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span>Boquilla y manguera sin obstrucciones, con el equipo visible, señalizado y con acceso despejado.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--c-acento); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span>Anillo de verificación de servicio sin vencer.</span></li></ul></div>
+
+      <!-- DISEÑO: la regla de retiro en recuadro rojo sin etiqueta; texto literal (arquitecto 2026-10-31) -->
+      <div class="ova-callout ova-callout--danger" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:alert-octagon-outline"></iconify-icon></div>
+        <div><p style="margin:0;">Retira el extintor de servicio de inmediato si encuentras cualquiera de estas condiciones: manómetro fuera del rango verde, pin o precinto rotos, etiqueta vencida, corrosión o daño visible en el cilindro, o manguera obstruida o agrietada.</p></div>
+      </div>
+
+      <p data-reveal style="margin-top:24px;">La inspección mensual del manómetro, el precinto y la etiqueta habría detectado la falla antes de la emergencia.</p>
+
+      <div class="ova-callout" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:information-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Importante</span><p style="margin:8px 0 0;">Un extintor con el pin o el precinto de seguridad rotos no se considera operativo, aunque el manómetro indique la presión correcta. La ausencia de estos sellos sugiere que el equipo pudo haber sido descargado parcialmente o recargado de forma deficiente, comprometiendo su efectividad en una emergencia.</p></div>
+      </div>
+
+      <div class="ova-callout ova-callout--success" style="margin-top:14px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:check-circle-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Buena práctica</span><p style="margin:8px 0 0;">Convierte estas cinco verificaciones en un hábito cotidiano. Revisarlas cada vez que pases junto a un extintor garantiza su disponibilidad real y evita sorpresas críticas al momento de enfrentar un incendio incipiente.</p></div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.2 · tema2-2 ════ -->
+      <section class="ova-seccion" id="tema2-2" data-reveal>
+        <h2 class="ova-seccion__titulo">Tipos de combustible y qué extintor requiere cada uno</h2>
+        <p class="ova-seccion__lead">Para apagar un incendio de forma segura, es vital identificar primero el origen del fuego. Cada tipo de combustible requiere un agente extintor específico. El uso del extintor equivocado puede propagar las llamas o causar accidentes graves.</p>
+      </section>
+
+      <!-- Figura 6 del diseñador -->
+      <figure class="ova-figura ova-figura--plana" data-reveal>
+        <img src="assets/img/curso/figura-06-clases-a-bc-abc.webp" alt="El extintor tipo A contiene agua a presión, ideal para enfriar materiales sólidos: enfría el material y reduce la temperatura. Los extintores tipo B y C usan dióxido de carbono (CO2), que sofoca desplazando el oxígeno sin dejar residuo, por lo que es apropiado cerca de equipos eléctricos: sofoca el fuego desplazando el oxígeno sin dejar residuo. El extintor multipropósito, identificado como tipo A, B, C, contiene polvo químico seco o PQS, a base de fosfato monoamónico, y sofoca e inhibe la reacción en cadena al mismo tiempo, lo que lo hace útil frente a varias clases de fuego." />
+      </figure>
+
+      <p data-reveal style="margin-top:32px;">El uso de dióxido de carbono (CO₂) implica dos riesgos fundamentales que deben conocerse antes de su manipulación:</p>
+
+      <!-- El DI: "Stepper" (dos ítems; manda el rótulo). Sin ova-step__tag -->
+      <div class="ova-stepper" data-reveal style="margin-top:16px;">
+        <div class="ova-step">
+          <div class="ova-step__num"><span>01</span></div>
+          <div class="ova-step__card"><h3><strong>Primer riesgo</strong></h3><p><strong>Riesgo de asfixia por desplazamiento de oxígeno.</strong> Al liberarse en espacios reducidos o con ventilación deficiente, el CO₂ desplaza el oxígeno del ambiente, lo que puede provocar asfixia de forma repentina. Por este motivo, tras utilizarlo en un recinto cerrado, es indispensable ventilar exhaustivamente el área antes de permitir el ingreso o la permanencia de cualquier persona.</p></div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>02</span></div>
+          <div class="ova-step__card"><h3><strong>Segundo riesgo</strong></h3><p><strong>Riesgo de quemaduras por congelación (criogénicas).</strong> El gas se expande y sale del cilindro a temperaturas extremadamente bajas, generando nieve carbónica en la boquilla del equipo. El contacto directo con esta zona durante o inmediatamente después de la descarga puede causar graves quemaduras por frío en la piel.</p></div>
+        </div>
+      </div>
+
+      <!-- DISEÑO: remate del stepper en recuadro sin etiqueta; texto literal (arquitecto 2026-10-31) -->
+      <div class="ova-callout" style="margin-top:32px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:weather-windy"></iconify-icon></div>
+        <div><p style="margin:0;">Al aire libre, el CO₂ se dispersa con rapidez y pierde eficacia.</p></div>
+      </div>
+
+      <!-- Figura 7 del diseñador (A4: «espuma» en la figura, «capa de jabón» en el texto; duda al instruccional, no detiene) -->
+      <figure class="ova-figura ova-figura--plana" data-reveal style="margin-top:32px;">
+        <img src="assets/img/curso/figura-07-clases-d-k.webp" alt="El extintor tipo D usa un polvo químico especial a base de cloruro de sodio o de potasio, diseñado específicamente para metales combustibles: virutas metálicas, polvo metálico, limaduras. El extintor tipo K contiene acetato de potasio, formulado para reaccionar con los aceites y grasas de cocina formando una espuma que sofoca el fuego y evita que se reactive: aceites de cocina, grasas vegetales y animales, aceites en proceso de calentamiento." />
+      </figure>
+
+      <p data-reveal style="margin-top:24px;">Para proteger equipos de alto valor, centros de datos, archivos y salas eléctricas, el agua y el polvo no son una opción. Aquí entran los agentes limpios (por ejemplo HCFC-123, HFC-236fa, HFC-227ea o FK-5-1-12/Novec 1230), la alternativa moderna al desaparecido halón. Ninguno conduce electricidad ni deja residuos. Los extintores portátiles de este tipo se certifican bajo UL 2129 / NFPA 10, y los sistemas fijos de agente limpio, bajo NFPA 2001; su uso en espacios ocupados por personas es seguro dentro de los límites de concentración del fabricante. En Colombia, el agente limpio portátil más común es el HCFC-123 (Solkaflam), sujeto al plazo de la Resolución 0634 de 2022 (que viste en el numeral 1.1): su uso solo podrá continuar hasta diciembre de 2029.</p>
+
+      <!-- Tabla 1 del Word: rótulo en negrilla y título literal. overflow-x:auto en las dos tablas: en móvil se desplazan en vez de recortarse (arreglo local; el del motor va como REQ KIT, arquitecto 2026-10-31) -->
+      <p data-reveal style="margin-top:32px; margin-bottom:12px;"><strong>Tabla 1</strong><br>Qué método usa cada agente</p>
+      <div class="ova-tabla" data-reveal style="margin-top:0; overflow-x:auto;"><table><thead><tr><th>Agente</th><th>Método principal</th><th>Método secundario</th></tr></thead><tbody><tr><td><strong>Agua a presión (A)</strong></td><td>Enfriamiento</td><td>No aplica</td></tr><tr><td><strong>Espuma AFFF (A, B)</strong></td><td>Sofocación</td><td>Enfriamiento</td></tr><tr><td><strong>CO₂ (B, C)</strong></td><td>Sofocación</td><td>Enfriamiento</td></tr><tr><td><strong>PQS multipropósito (ABC)</strong></td><td>Inhibición de la reacción en cadena</td><td>Sofocación</td></tr><tr><td><strong>Polvo especial (D)</strong></td><td>Sofocación (forma una costra aislante)</td><td>No aplica</td></tr><tr><td><strong>Acetato de potasio (K)</strong></td><td>Sofocación (saponificación: forma una capa de jabón)</td><td>Enfriamiento</td></tr><tr><td><strong>Agentes limpios (FM-200, Novec 1230)</strong></td><td>Enfriamiento</td><td>Inhibición parcial de la reacción en cadena</td></tr></tbody></table></div>
+
+      <p data-reveal style="margin-top:32px;">La Tabla 2 resume qué extintor corresponde a cada clase de fuego:</p>
+      <p data-reveal style="margin-top:16px; margin-bottom:12px;"><strong>Tabla 2</strong><br>Qué extintor corresponde a cada clase de fuego</p>
+      <!-- DISEÑO: «Extintor correcto» resaltada (is-highlight), como en espacios-confinados -->
+      <div class="ova-tabla" data-reveal style="margin-top:0; overflow-x:auto;"><table><thead><tr><th>Clase de fuego</th><th>Tipo de combustible</th><th class="is-highlight">Extintor correcto</th></tr></thead><tbody><tr><td><strong>A</strong></td><td>Sólidos: papel, madera, cartón, plástico.</td><td>Agua a presión (A), PQS multipropósito (ABC) o espuma AFFF.</td></tr><tr><td><strong>B</strong></td><td>Líquidos y gases: gasolina, ACPM, thinner. En fugas de gas, cerrar primero la fuente de suministro; extinguir sin cortar el gas deja una nube explosiva sin encender.</td><td>CO₂, espuma AFFF o PQS multipropósito (ABC).</td></tr><tr><td><strong>C</strong></td><td>Equipos energizados: eléctricos, electrónicos.</td><td>Si es seguro, desenergizar primero; luego CO₂ o agente limpio (preferibles en electrónica sensible) o PQS multipropósito (eficaz, pero corrosivo para el equipo).</td></tr><tr><td><strong>D</strong></td><td>Metales: magnesio, titanio, sodio, potasio y litio metálico.</td><td>Polvo especial según el metal: cloruro de sodio o potasio para metales como el magnesio; agente de cobre o grafito para el litio metálico, según el fabricante. Las baterías de ion-litio no son fuego clase D: si están comprometidas, evacúa y avisa a los bomberos.</td></tr><tr><td><strong>K</strong></td><td>Aceites y grasas de cocina.</td><td>Acetato de potasio (K), exclusivamente.</td></tr></tbody></table></div>
+
+      <!-- ════ Sección {{NUM}}.3 · tema2-3 ════ -->
+      <section class="ova-seccion" id="tema2-3" data-reveal>
+        <h2 class="ova-seccion__titulo">Cómo interpretar la clasificación numérica de un extintor</h2>
+        <p class="ova-seccion__lead">En la etiqueta de casi cualquier extintor observarás un código como 2A:10B:C. Lejos de ser un elemento decorativo, esta combinación indica la capacidad exacta del equipo. Cada equivalencia está estrictamente verificada mediante pruebas de fuego bajo la norma estadounidense UL 711, referenciada por NFPA 10 y la NTC 2885. Algunos equipos importados usan la clasificación europea EN 3 (p. ej. 21A-113B), que no es equivalente numéricamente.</p>
+      </section>
+
+      <!-- Figura 8 del diseñador -->
+      <figure class="ova-figura ova-figura--plana" data-reveal>
+        <img src="assets/img/curso/figura-08-clasificacion-2a10bc.webp" alt="2A:10B:C. El número antes de la A indica la capacidad frente a fuegos clase A, expresada como un equivalente en agua: cada unidad equivale a 1,25 galones, así que un extintor 2A tiene una capacidad equivalente a 2,5 galones de agua, y uno 4A equivale a 5 galones. 2A = 2,5 galones de agua ≈ 9,5 L; 4A = 5 galones de agua ≈ 18,9 L. El número antes de la B indica el área aproximada de fuego de líquidos inflamables, expresada en pies cuadrados, que un operador no experto puede extinguir en la prueba. Así, un 10B corresponde aproximadamente a 10 pies cuadrados y un 20B al doble. 10B ≈ 10 pies cuadrados ≈ 0,93 m²; 20B ≈ 20 pies cuadrados ≈ 1,86 m². La letra C, en cambio, nunca lleva número: solo confirma que el agente no es conductor de electricidad y puede usarse cerca de equipos energizados. Lo mismo ocurre con la K, que tampoco lleva calificación numérica, sino que certifica que el extintor fue probado específicamente para fuegos de aceites y grasas de cocina." />
+      </figure>
+
+      <div class="ova-callout" style="margin-top:32px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:information-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Importante</span><p style="margin:8px 0 0;">Esta clasificación tiene un propósito fundamentalmente práctico: dos extintores con el mismo peso pueden ofrecer capacidades de extinción abismalmente diferentes. Por ejemplo, un equipo con clasificación <strong>10B:C</strong> jamás podrá sustituir a uno <strong>2A:10B:C</strong>, debido a que el primero carece de certificación para combatir fuegos de <strong>clase A</strong>. Comprender este código te permite verificar de un vistazo, directamente en la etiqueta, si el extintor que sostienes es el adecuado para el tipo de riesgo que enfrentas.</p></div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.4 · tema2-4 ════ -->
+      <section class="ova-seccion" id="tema2-4" data-reveal>
+        <h2 class="ova-seccion__titulo">Ubicación y altura reglamentaria de los extintores</h2>
+        <p class="ova-seccion__lead">La normativa vigente exige la disposición de extintores y garantiza su accesibilidad inmediata ante una emergencia. Para ello, se regula la distancia máxima de recorrido, definida como el trayecto real que una persona debe caminar, evitando obstáculos y no en línea recta, hasta el equipo más cercano. Según la NTC 2885, esta distancia máxima es de 23 m para riesgos de clase A y D, de 9 a 15 m para clase B según el nivel de riesgo, y de 9 m para clase K; en clase C se ubican según el riesgo de clase A o B asociado al equipo energizado.</p>
+      </section>
+
+      <!-- Figura 9 del diseñador (Imagen 9). DETENIDA: ERRORES-ORIGEN-2026-10-28 · F9 (glifo «reco∞rrido» en el
+           panel K; Bloquea = Sí). Entra como figura-09-distancias-recorrido.webp cuando vuelva corregida o el cliente
+           decida por escrito usarla así -->
+      <div data-reveal>
+        <div data-ova-hueco="figura 9 (2.4, distancias máximas de recorrido): detenida por ERRORES-ORIGEN F9"></div>
+      </div>
+
+      <p data-reveal style="margin-top:32px;">La altura de instalación de los extintores también está regulada por normativa, para garantizar que cualquier persona pueda descolgarlos rápidamente en una situación de emergencia. Los límites permitidos varían, según el peso del equipo:</p>
+
+      <!-- El DI: "Carrusel" (tres ítems; manda el rótulo) -->
+      <div class="ova-carrusel ova-carrusel--tarjetas" data-reveal style="margin-top:16px;">
+        <div class="ova-carrusel__track-wrap"><div class="ova-carrusel__track">
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:human-male-height"></iconify-icon><h4><strong>Extintores de hasta 18 kg</strong></h4><p>La parte superior del extintor debe ubicarse a una altura máxima de 1,53 m con respecto al suelo.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:weight-kilogram"></iconify-icon><h4><strong>Extintores de más de 18 kg</strong></h4><p>Al tratarse de equipos más pesados, el límite máximo de la parte superior se reduce a 1,07 m para facilitar su manipulación.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:arrow-collapse-down"></iconify-icon><h4><strong>Distancia mínima al suelo</strong></h4><p>En todos los casos, la base del extintor debe quedar a una altura mínima de 10 centímetros del piso. Esto evita el contacto directo con la humedad, el polvo y los impactos durante la limpieza.</p></div>
+        </div></div>
+        <div class="ova-carrusel__nav"><div class="ova-carrusel__dots"></div><div class="ova-carrusel__arrows"><button class="ova-carrusel__arrow" data-ova-carrusel-prev><iconify-icon icon="mdi:arrow-left"></iconify-icon></button><button class="ova-carrusel__arrow" data-ova-carrusel-next><iconify-icon icon="mdi:arrow-right"></iconify-icon></button></div></div>
+      </div>
+
+      <p data-reveal style="margin-top:32px;">La ubicación de los equipos contra incendios debe estar estrictamente señalizada. Según la NTC 1461 del ICONTEC, las señales de equipos contra incendio usan fondo rojo, con un mínimo del 50 % del área de color rojo y pictograma blanco. Complementariamente, la NTC 1931 detalla los pictogramas específicos para la protección contra el fuego.</p>
+      <p data-reveal>La Resolución 2400 de 1979 exige identificar con color rojo la ubicación de los equipos contra incendio (art. 224) y ubicar los extintores en sitios visibles y libres de obstáculos (art. 221).</p>
+
+      <!-- ════ Sección {{NUM}}.5 · tema2-5 ════ -->
+      <section class="ova-seccion" id="tema2-5" data-reveal>
+        <h2 class="ova-seccion__titulo">Consecuencias de usar el agente equivocado</h2>
+        <p class="ova-seccion__lead">Utilizar un extintor incorrecto no es un simple error sin consecuencias: puede avivar el fuego de forma activa y agravar drásticamente la situación. No se trata solo de que el extintor deje de funcionar, sino de que puede convertirse en un catalizador del peligro.</p>
+      </section>
+      <p data-reveal>Con lo visto sobre las clases de fuego y los agentes, revisa ahora seis escenarios críticos: uno por cada clase de fuego (A, B, C, D y K) y uno adicional para el fuego vehicular, frecuente en la operación, que explican con precisión qué falla y por qué cuando se toma la decisión equivocada:</p>
+
+      <!-- El DI: "Stepper". El número va en el título, como en el Word; el círculo lleva un icono por escenario y las
+           viñetas un icono por remate (DISEÑO, arquitecto 2026-10-31). Sin ova-step__tag -->
+      <div class="ova-stepper" data-reveal style="margin-top:16px;">
+        <div class="ova-step">
+          <div class="ova-step__num"><iconify-icon icon="mdi:pot-steam"></iconify-icon></div>
+          <div class="ova-step__card"><h3><strong>1. Incendios en cocinas por aceites o grasas (clase K)</strong></h3>
+            <ul style="list-style:none; padding:0; margin:10px 0 0; display:grid; gap:10px;"><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:close-circle-outline" style="color:var(--danger); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Error crítico.</strong> Aplicar agua, polvo químico seco (PQS) o CO₂.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:alert-outline" style="color:var(--warning); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Consecuencia.</strong> Como la temperatura del aceite supera ampliamente el punto de ebullición del agua, aplicar agua provoca que esta se convierta en vapor de forma instantánea y proyecte el aceite en llamas. El PQS y el CO₂ pueden salpicar el aceite por la fuerza de la descarga y, al no enfriarlo por debajo de su temperatura de autoignición, el fuego se reaviva en segundos.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--success); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Solución correcta.</strong> Cortar el gas o la energía si es seguro hacerlo, sin mover el recipiente, y aplicar el extintor de acetato de potasio (clase K) con una descarga suave desde el aplicador, dejando que la saponificación forme una capa de jabón que sofoque y enfríe el aceite sin reacciones violentas.</span></li></ul>
+          </div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><iconify-icon icon="mdi:gas-station"></iconify-icon></div>
+          <div class="ova-step__card"><h3><strong>2. Incendios de líquidos inflamables como la gasolina (clase B)</strong></h3>
+            <ul style="list-style:none; padding:0; margin:10px 0 0; display:grid; gap:10px;"><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:close-circle-outline" style="color:var(--danger); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Error crítico.</strong> Usar agua a presión o un extintor clase K.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:alert-outline" style="color:var(--warning); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Consecuencia.</strong> Dado que el agua es más densa que la mayoría de los hidrocarburos, el combustible flota sobre ella. El chorro a presión no apaga el fuego, sino que arrastra y esparce el líquido ardiendo, ampliando el área de la emergencia. El acetato de potasio (clase K) tampoco es apto: su química está diseñada para grasas vegetales o animales, no para derivados del petróleo.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--success); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Solución correcta.</strong> Utilizar CO₂, PQS multipropósito o espuma AFFF. Dirige la descarga al borde más cercano del derrame hacia adelante, sin impactar directamente el líquido, para no salpicarlo. En fugas de gas, corta primero la válvula de suministro; si no es posible, no extingas y evacúa.</span></li></ul>
+          </div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><iconify-icon icon="mdi:flash"></iconify-icon></div>
+          <div class="ova-step__card"><h3><strong>3. Incendios de origen eléctrico en equipos energizados (clase C)</strong></h3>
+            <ul style="list-style:none; padding:0; margin:10px 0 0; display:grid; gap:10px;"><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:close-circle-outline" style="color:var(--danger); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Error crítico.</strong> Utilizar agua o agentes de base acuosa.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:alert-outline" style="color:var(--warning); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Consecuencia.</strong> El agua es un excelente conductor de la electricidad. Si el circuito sigue conectado, la corriente viajará a través del chorro del extintor, provocando una descarga eléctrica directa y potencialmente mortal para el operador.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--success); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Solución correcta.</strong> Si es seguro, corta la energía desde el tablero; luego el fuego es tratado como clase A o B. Si no es posible desenergizar con seguridad, usa CO₂ o un agente limpio (preferibles en electrónica sensible); el PQS es eficaz pero corrosivo, manteniendo la distancia indicada en la etiqueta. En alta tensión, no intervengas: evacúa.</span></li></ul>
+          </div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><iconify-icon icon="mdi:pine-tree"></iconify-icon></div>
+          <div class="ova-step__card"><h3><strong>4. Incendios de materiales sólidos y orgánicos como papel o madera (clase A)</strong></h3>
+            <ul style="list-style:none; padding:0; margin:10px 0 0; display:grid; gap:10px;"><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:close-circle-outline" style="color:var(--danger); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Error crítico.</strong> Intentar apagarlo únicamente con CO₂.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:alert-outline" style="color:var(--warning); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Consecuencia.</strong> El CO₂ es un gas que se disipa rápidamente en el aire. Aunque puede sofocar las llamas superficiales de momento, no penetra en los materiales porosos ni enfría las brasas profundas (esa capacidad de penetración y enfriamiento es propia del agua). Esto permite que las brasas internas sigan encendidas bajo la superficie y que el fuego se reinicie en cuanto el gas se disipe.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--success); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Solución correcta.</strong> Utilizar agua a presión (clase A) o PQS multipropósito. El agua penetra y enfría las brasas; el PQS forma una capa que sofoca la superficie. Después de extinguir, remueve y vigila el material durante varios minutos: las brasas internas pueden reavivar el fuego.</span></li></ul>
+          </div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><iconify-icon icon="mdi:atom"></iconify-icon></div>
+          <div class="ova-step__card"><h3><strong>5. Fuego en metales combustibles (clase D)</strong></h3>
+            <ul style="list-style:none; padding:0; margin:10px 0 0; display:grid; gap:10px;"><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:close-circle-outline" style="color:var(--danger); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Error crítico.</strong> Usar agua o extintores para fuegos A, B o C.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:alert-outline" style="color:var(--warning); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Consecuencia.</strong> Se desencadena una reacción química violenta. Ciertos metales reaccionan con el agua liberando hidrógeno, un gas altamente inflamable que puede provocar una segunda explosión masiva y propagar el fuego instantáneamente.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--success); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Solución correcta.</strong> Usar el extintor clase D especificado para el metal presente (por ejemplo, cloruro de sodio o potasio para magnesio; cobre o grafito para litio, según el fabricante), aplicando el polvo suavemente hasta cubrir por completo el metal en combustión.</span></li></ul>
+          </div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><iconify-icon icon="mdi:car"></iconify-icon></div>
+          <div class="ova-step__card"><h3><strong>6. Fuego vehicular (clase B con riesgo eléctrico)</strong></h3>
+            <ul style="list-style:none; padding:0; margin:10px 0 0; display:grid; gap:10px;"><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:close-circle-outline" style="color:var(--danger); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Error crítico.</strong> Utilizar agua o extintores para fuegos de cocina (clase K) en un motor que combina combustibles líquidos y componentes eléctricos.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:alert-outline" style="color:var(--warning); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Consecuencia.</strong> El agua dispersa los líquidos inflamables y expande las llamas rápidamente por el suelo y el chasis. Además, el agua conduce la electricidad de la batería y el cableado, generando un riesgo inminente de electrocución o cortocircuitos secundarios.</span></li><li style="display:flex; gap:10px; align-items:flex-start;"><iconify-icon icon="mdi:check-circle-outline" style="color:var(--success); font-size:1.1rem; margin-top:3px; flex-shrink:0;"></iconify-icon><span><strong>Solución correcta.</strong> Apaga el motor si puedes hacerlo con seguridad. No abras el capó por completo: descarga el agente por la rendija o por debajo del vehículo, dirigiéndolo con precaución a la base de las llamas. Mantén distancia: la presión interna del calor puede hacer que el capó se abra de golpe y expulse gases o componentes calientes, y existe riesgo de explosión de neumáticos o amortiguadores. En vehículos eléctricos o híbridos con la batería comprometida, no intervengas: aléjate y llama a bomberos.</span></li></ul>
+          </div>
+        </div>
+      </div>

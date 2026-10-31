@@ -1,0 +1,124 @@
+      <header class="ova-screen__head" data-reveal>
+        <div class="ova-screen__eyebrow">Tema {{NUM}}</div>
+        <h1 class="ova-screen__title">Actuar ante una emergencia</h1>
+      </header>
+
+      <!-- Situación de partida · el texto es el cuadro (tabla 1×1) del Word bajo «Situación de partida:» -->
+      <div data-reveal style="margin-bottom:40px; padding:32px; background:linear-gradient(135deg, color-mix(in srgb, var(--c-acento) 10%, var(--bg-surface)) 0%, var(--bg-surface) 60%); border:1px solid color-mix(in srgb, var(--c-acento) 30%, var(--border-c)); border-radius:var(--r-lg); position:relative; overflow:hidden;">
+        <h3 style="font-family:var(--font-mono); font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--c-acento); margin:0 0 16px; display:flex; align-items:center; gap:10px;"><iconify-icon icon="mdi:comment-question-outline" style="font-size:1.1rem;"></iconify-icon> Situación de partida</h3>
+        <p style="margin:0; font-size:1.02rem; line-height:1.6;">Un incendio que empezó en una estantería ha escalado hasta cubrir buena parte de una bodega, con humo denso acumulándose cerca del techo. Alguien insiste en que todavía puede apagarlo con el extintor más cercano.</p>
+        <p style="margin:14px 0 0; font-size:1.02rem; line-height:1.6;"><strong>Piensa en esto antes de seguir:</strong> ¿qué señales te indican que este fuego ya superó la capacidad de un extintor portátil?</p>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.1 · tema4-1 ════ -->
+      <section class="ova-seccion" id="tema4-1" data-reveal>
+        <h2 class="ova-seccion__titulo">Cuándo no combatir el fuego: criterios de evacuación</h2>
+        <p class="ova-seccion__lead">En el numeral 3.1 viste las condiciones indispensables para intervenir: el fuego debe tener un tamaño manejable, el espacio debe estar libre de humo denso, la salida debe permanecer despejada y se debe contar con la capacitación y el extintor adecuado dentro de su capacidad de descarga. Si cualquiera de estos requisitos no se cumple, aborta la intervención de inmediato: activa la alarma de emergencia, inicia la evacuación del inmueble y cede el control absoluto de la situación a los cuerpos de bomberos.</p>
+      </section>
+
+      <!-- Botón: Ten en cuenta (como «Botón: Importante» en ensayo-ova); «En el caso de la bodega…» va fuera (arquitecto 2026-10-31) -->
+      <div class="ova-callout" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:lightbulb-on"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Ten en cuenta</span><p style="margin:8px 0 0;">Un incendio fuera de control supera la capacidad de cualquier extintor portátil. Insistir después de ese punto te expone a una lesión grave.</p></div>
+      </div>
+
+      <p data-reveal style="margin-top:24px;">En el caso de la bodega, la altura de las llamas y el humo denso cerca del techo indicaban que ya no era momento de intervenir, sino de evacuar.</p>
+
+      <!-- ════ Sección {{NUM}}.2 · tema4-2 ════ -->
+      <section class="ova-seccion" id="tema4-2" data-reveal>
+        <h2 class="ova-seccion__titulo">Qué hacer después de usar un extintor</h2>
+        <p class="ova-seccion__lead">Un extintor que ha sido activado, incluso de manera parcial, pierde presión y los residuos pueden impedir el sellado de la válvula, así que deja de estar operativo de inmediato.</p>
+      </section>
+
+      <!-- El DI: "Stepper". Sin ova-step__tag -->
+      <div class="ova-stepper" data-reveal style="margin-top:0;">
+        <div class="ova-step">
+          <div class="ova-step__num"><span>01</span></div>
+          <div class="ova-step__card"><h3><strong>Inhabilitar el equipo</strong></h3><p>Retirarlo de su soporte y marcarlo como «usado – no operativo» para que nadie lo tome por error.</p></div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>02</span></div>
+          <div class="ova-step__card"><h3><strong>Gestionar la recarga</strong></h3><p>Enviarlo a un proveedor autorizado para mantenimiento y recarga.</p></div>
+        </div>
+        <div class="ova-step">
+          <div class="ova-step__num"><span>03</span></div>
+          <div class="ova-step__card"><h3><strong>Instalar un reemplazo</strong></h3><p>Colocar un extintor equivalente en el punto de protección y verificar que esté operativo. Ventila y vigila el área durante varios minutos antes de darla por segura, y reporta y registra el uso del equipo.</p></div>
+        </div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.3 · tema4-3 ════ -->
+      <section class="ova-seccion" id="tema4-3" data-reveal>
+        <h2 class="ova-seccion__titulo">Coordinación con los cuerpos de bomberos</h2>
+        <p class="ova-seccion__lead">Tras activar la alarma y realizar la evacuación, el rol de las personas presentes en la emergencia se transforma: deja de ser un intento de contención y se convierte en una labor de información clave.</p>
+      </section>
+      <p data-reveal>Al arribo de los bomberos, los datos más valiosos que se les pueden suministrar son aquellos detalles críticos que no resultan visibles a simple vista:</p>
+
+      <!-- El DI: "Acordeón" -->
+      <div class="ova-acordeon" data-reveal style="margin-top:16px;">
+        <div class="ova-acordeon__item is-open">
+          <button class="ova-acordeon__head"><span><span class="num">01</span> <strong>Origen del fuego</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Causa específica del inicio del incendio, si se conoce.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">02</span> <strong>Materiales involucrados</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Sustancias, químicos o elementos combustibles almacenados en el área afectada.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">03</span> <strong>Personal en riesgo</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Confirmación exacta de si alguna persona no logró evacuar y su posible ubicación.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">04</span> <strong>Recursos utilizados</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Qué extintores o sistemas de supresión se accionaron y sobre qué punto específico se aplicaron.</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><span class="num">05</span> <strong>Cortes y riesgos</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">Ubicación de los cortes de gas y energía, sustancias peligrosas presentes y sus fichas de datos de seguridad (FDS), planos y accesos del área.</div></div>
+        </div>
+      </div>
+
+      <p data-reveal style="margin-top:24px;">De acuerdo con la Ley 1575 de 2012, una vez el cuerpo de bomberos se presenta en el lugar, asume de inmediato el control técnico de la emergencia. A partir de ese momento, el personal de la empresa cesa cualquier labor de extinción directa y pasa a actuar estrictamente como apoyo logístico, no como responsable de las decisiones que se tomen con respecto a la extinción.</p>
+
+      <div class="ova-callout" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:information-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Importante</span><p style="margin:8px 0 0;">Intervenir en las labores de los bomberos, incluso con la intención de ayudar, puede retrasar la respuesta ante la emergencia. Esto incrementa el peligro tanto para el personal de rescate como para el personal de la empresa.</p></div>
+      </div>
+
+      <!-- ════ Sección {{NUM}}.4 · tema4-4 ════ -->
+      <section class="ova-seccion" id="tema4-4" data-reveal>
+        <h2 class="ova-seccion__titulo">Investigación de incidentes y lecciones aprendidas</h2>
+        <p class="ova-seccion__lead">Todo incendio, sin importar su magnitud o el hecho de haber sido controlado sin registrar daños, debe ser investigado antes de dar por cerrado el evento. El objetivo primordial de este proceso no es buscar culpables, sino identificar las causas raíz, ya sean condiciones inseguras, decisiones erróneas o fallas sistémicas, que permitieron el inicio del fuego. Este análisis es fundamental para implementar acciones correctivas inmediatas y evitar que el incidente se repita bajo un escenario de menor control o mayor gravedad.</p>
+      </section>
+
+      <!-- DISEÑO: la regla normativa en recuadro sin etiqueta; texto literal (arquitecto 2026-10-31) -->
+      <div class="ova-callout" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:scale-balance"></iconify-icon></div>
+        <div><p style="margin:0;">La Resolución 1401 de 2007 y el Decreto 1072 de 2015 (art. 2.2.4.6.32) obligan a investigar todo incidente y accidente de trabajo, con un equipo investigador y la implementación de acciones preventivas y correctivas.</p></div>
+      </div>
+
+      <p data-reveal style="margin-top:32px;">El proceso de investigación debe cubrir, como mínimo, estos cinco aspectos:</p>
+
+      <!-- Figura 10 del diseñador -->
+      <figure class="ova-figura ova-figura--plana" data-reveal style="margin-top:16px;">
+        <img src="assets/img/curso/figura-10-investigacion-incidentes.webp" alt="1, origen y causa del fuego: condiciones y actos que lo iniciaron. 2, recolección de la información: hechos observados, testimonios y estado de los equipos en el momento del incendio. 3, reconstrucción de la secuencia de eventos: qué ocurrió, en qué orden y en cuánto tiempo. 4, determinación de las causas inmediatas: actos y condiciones inseguras que precedieron directamente al fuego. 5, determinación de las causas básicas o raíz: factores personales o del sistema de gestión que permitieron esas condiciones." />
+      </figure>
+
+      <p data-reveal style="margin-top:24px;">El resultado de la investigación debe traducirse en acciones concretas, como modificar un procedimiento, programar capacitaciones adicionales, reubicar los extintores o ajustar el tipo de agente extintor de la zona. Investigar un incidente sin implementar cambios operativos anula el aprendizaje real y eleva el riesgo de que la situación se repita.</p>
+
+      <div class="ova-callout ova-callout--success" style="margin-top:24px;" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:check-circle-outline"></iconify-icon></div>
+        <div><span class="ova-callout__tag">Buena práctica</span><p style="margin:8px 0 0;">El registro sistemático de cada incidente, independientemente de su magnitud, constituye la base de la mejora continua del sistema de prevención de la empresa. Es indispensable documentar por escrito qué extintor se activó, evaluar su efectividad y registrar los ajustes técnicos posteriores. Esta disciplina es la que transforma un evento fortuito en una oportunidad real para optimizar la seguridad.</p></div>
+      </div>
+
+      <!-- Pódcast (el DI: «(Vincular pódcast)»). DETENIDO: falta el .mp3 (ESTADO.md, Multimedia = falta).
+           El Word no trae título ni frase de invitación: solo el hueco -->
+      <div data-reveal style="margin-top:40px;">
+        <div data-ova-hueco="pódcast (4.4): falta el .mp3 (insumos/multimedia/)"></div>
+      </div>
+
+      <!-- El DI: "Evaluación final" · DISEÑO: con el marco de «Situación de partida», fuera del 4.4 (arquitecto 2026-10-31).
+           Sin botón ni enlace mientras siga abierta la duda A1 (ERRORES-ORIGEN) -->
+      <div data-reveal style="margin-top:56px; padding:32px; background:linear-gradient(135deg, color-mix(in srgb, var(--c-acento) 10%, var(--bg-surface)) 0%, var(--bg-surface) 60%); border:1px solid color-mix(in srgb, var(--c-acento) 30%, var(--border-c)); border-radius:var(--r-lg);">
+        <h3 style="font-family:var(--font-mono); font-size:.78rem; letter-spacing:.18em; text-transform:uppercase; color:var(--c-acento); margin:0 0 16px; display:flex; align-items:center; gap:10px;"><iconify-icon icon="mdi:clipboard-check-outline" style="font-size:1.1rem;"></iconify-icon> Evaluación final</h3>
+        <p style="margin:0; font-size:1.02rem; line-height:1.6;">Al finalizar los cuatro temas, presentarás una evaluación final alineada con los objetivos del curso: identificar la clase de fuego, seleccionar el agente extintor, verificar el estado operativo de un extintor, aplicar la técnica PASS y decidir cuándo evacuar. Aprobarla con un puntaje mínimo del 80 % es el requisito teórico obligatorio para pasar a la fase de inmersión práctica.</p>
+      </div>
